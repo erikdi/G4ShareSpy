@@ -42,4 +42,8 @@ extension GlucoseG4: SensorDisplayable {
     public var isLocal: Bool {
         return true
     }
+
+    public var sensorStartDate: Date? {
+        return nil
+    }
 }
